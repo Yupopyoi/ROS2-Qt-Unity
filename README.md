@@ -8,3 +8,5 @@ This repository is for the **Qt project** and does NOT include the Unity project
 # Explanation
 
 The explanatory article is as follows However, it is written in Japanese.
+
+https://qiita.com/Yupopyoi/items/5e5ae97091e7c692d58e
