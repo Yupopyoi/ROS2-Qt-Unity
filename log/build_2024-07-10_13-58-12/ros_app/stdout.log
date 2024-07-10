@@ -1,0 +1,23 @@
+[ 10%] Automatic MOC and UIC for target MainWindow
+[ 10%] Built target MainWindow_autogen
+Consolidate compiler generated dependencies of target MainWindow
+[ 20%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o
+[ 30%] Building CXX object CMakeFiles/MainWindow.dir/src/source/JointStateHandler.cpp.o
+[ 40%] Linking CXX executable MainWindow
+[100%] Built target MainWindow
+-- Install configuration: "Debug"
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/package_run_dependencies/ros_app
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/parent_prefix_path/ros_app
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.sh
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.dsv
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.bash
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.sh
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.zsh
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.dsv
+-- Installing: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.dsv
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/packages/ros_app
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig.cmake
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig-version.cmake
+-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.xml

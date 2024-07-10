@@ -1,0 +1,12 @@
+[ 11%] Automatic MOC and UIC for target MainWindow
+[ 11%] Built target MainWindow_autogen
+[ 22%] Building CXX object CMakeFiles/MainWindow.dir/src/source/SerializedTrajectoryMaker.cpp.o
+In file included from /home/yupopoi/ROS-App/src/ros_app/src/header/SerializedTrajectoryMaker.h:8,
+                 from /home/yupopoi/ROS-App/src/ros_app/src/source/SerializedTrajectoryMaker.cpp:1:
+/home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/include/../../../../../../../../../../../opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/robot_trajectory.h:8:10: fatal error: moveit_msgs/msg/detail/robot_trajectory__struct.h: No such file or directory
+    8 | #include "moveit_msgs/msg/detail/robot_trajectory__struct.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:151: CMakeFiles/MainWindow.dir/src/source/SerializedTrajectoryMaker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

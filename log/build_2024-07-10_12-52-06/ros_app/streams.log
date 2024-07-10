@@ -1,0 +1,37 @@
+[0.008s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.166s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.514s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.814s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.830s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.865s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.450s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.511s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.927s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.278s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.464s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[4.045s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.179s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.179s] -- Configured cppcheck include dirs: /home/yupopoi/ROS-App/src/ros_app/src/header;/home/yupopoi/ROS-App/src/ros_app/src/source;/home/yupopoi/ROS-App/src/ros_app/src/ui
+[4.179s] -- Configured cppcheck exclude dirs and/or files: 
+[4.184s] -- Added test 'lint_cmake' to check CMake code style
+[4.189s] -- Added test 'uncrustify' to check C / C++ code style
+[4.190s] -- Configured uncrustify additional arguments: 
+[4.190s] -- Added test 'xmllint' to check XML markup files
+[4.204s] -- Configuring done
+[4.324s] -- Generating done
+[4.327s] -- Build files have been written to: /home/yupopoi/ROS-App/build/ros_app
+[4.376s] [ 11%] Automatic MOC and UIC for target MainWindow
+[4.409s] [ 11%] Built target MainWindow_autogen
+[4.465s] Consolidate compiler generated dependencies of target MainWindow
+[4.489s] [ 22%] Building CXX object CMakeFiles/MainWindow.dir/src/source/SerializedTrajectoryMaker.cpp.o
+[4.889s] In file included from /home/yupopoi/ROS-App/src/ros_app/src/source/SerializedTrajectoryMaker.cpp:1:
+[4.889s] /home/yupopoi/ROS-App/src/ros_app/src/header/SerializedTrajectoryMaker.h:8:10: fatal error: moveit_msgs/msg/robot_trajectory.hpp: No such file or directory
+[4.889s]     8 | #include <moveit_msgs/msg/robot_trajectory.hpp>
+[4.889s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[4.890s] compilation terminated.
+[4.893s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:151: CMakeFiles/MainWindow.dir/src/source/SerializedTrajectoryMaker.cpp.o] Error 1
+[4.895s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[4.895s] gmake: *** [Makefile:146: all] Error 2
+[4.898s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

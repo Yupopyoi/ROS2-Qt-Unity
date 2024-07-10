@@ -1,0 +1,14 @@
+[0.039s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.292s] [ 25%] Automatic MOC and UIC for target MainWindow
+[0.331s] [ 25%] Built target MainWindow_autogen
+[0.363s] [ 50%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o
+[0.646s] In file included from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/moc_UnityConnector.cpp:9,
+[0.646s]                  from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/mocs_compilation.cpp:2:
+[0.646s] /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/../../../../src/ros_app/src/header/UnityConnector.h:5:10: fatal error: QTcpServer: No such file or directory
+[0.646s]     5 | #include <QTcpServer>
+[0.646s]       |          ^~~~~~~~~~~~
+[0.646s] compilation terminated.
+[0.646s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:76: CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o] Error 1
+[0.647s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[0.647s] gmake: *** [Makefile:146: all] Error 2
+[0.650s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

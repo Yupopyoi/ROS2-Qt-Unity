@@ -1,0 +1,12 @@
+[ 20%] Automatic MOC and UIC for target MainWindow
+AutoGen warning: "SRC:/src/source/main.cpp" is empty.
+
+[ 20%] Built target MainWindow_autogen
+[ 40%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o
+[ 60%] Linking CXX executable MainWindow
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:197: MainWindow] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

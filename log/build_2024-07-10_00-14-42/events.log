@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.004622] (ros_app) JobQueued: {'identifier': 'ros_app', 'dependencies': OrderedDict()}
+[0.004689] (ros_app) JobStarted: {'identifier': 'ros_app'}
+[0.015496] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'cmake'}
+[0.019593] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'build'}
+[0.019677] (ros_app) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yupopoi/ROS-App/build/ros_app', '--', '-j2', '-l2'], 'cwd': '/home/yupopoi/ROS-App/build/ros_app', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'yupopoi'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '78'), ('HOME', '/home/yupopoi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/yupopoi/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1002'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1194'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2103'), ('COLCON_PREFIX_PATH', '/home/yupopoi/ROS-App/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'yupopoi'), ('JOURNAL_STREAM', '8:32944'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('QSG_RHI_BACKEND', 'opengl'), ('TERM', 'xterm'), ('USERNAME', 'yupopoi'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', 'c789fe05f65749fd90d72feeaf56253e'), ('SESSION_MANAGER', 'local/yupopoi-u2:@/tmp/.ICE-unix/1171,unix/yupopoi-u2:/tmp/.ICE-unix/1171'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2HUPQ2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yupopoi/ROS-App/build/ros_app'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/home/yupopoi/Qt/6.7.2/gcc_64/lib/cmake:/opt/ros/humble'), ('GTK_THEME', ':light')]), 'shell': False}
+[0.098844] (ros_app) StdoutLine: {'line': b'[ 20%] Automatic MOC and UIC for target MainWindow\n'}
+[0.100979] (-) TimerEvent: {}
+[0.132433] (ros_app) StdoutLine: {'line': b'[ 20%] Built target MainWindow_autogen\n'}
+[0.161784] (ros_app) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o\n'}
+[0.161946] (ros_app) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/MainWindow.dir/src/source/UnityConnector.cpp.o\n'}
+[0.201117] (-) TimerEvent: {}
+[0.301404] (-) TimerEvent: {}
+[0.401667] (-) TimerEvent: {}
+[0.457602] (ros_app) StderrLine: {'line': b'In file included from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/moc_UnityConnector.cpp:9,\n'}
+[0.457930] (ros_app) StderrLine: {'line': b'                 from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/mocs_compilation.cpp:2:\n'}
+[0.458079] (ros_app) StderrLine: {'line': b'/home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/../../../../src/ros_app/src/header/UnityConnector.h:5:10: fatal error: QTcpServer: No such file or directory\n'}
+[0.458167] (ros_app) StderrLine: {'line': b'    5 | #include <QTcpServer>\n'}
+[0.458273] (ros_app) StderrLine: {'line': b'      |          ^~~~~~~~~~~~\n'}
+[0.458347] (ros_app) StderrLine: {'line': b'compilation terminated.\n'}
+[0.459721] (ros_app) StderrLine: {'line': b'In file included from /home/yupopoi/ROS-App/src/ros_app/src/source/UnityConnector.cpp:1:\n'}
+[0.459830] (ros_app) StderrLine: {'line': b'/home/yupopoi/ROS-App/src/ros_app/src/header/UnityConnector.h:5:10: fatal error: QTcpServer: No such file or directory\n'}
+[0.459912] (ros_app) StderrLine: {'line': b'    5 | #include <QTcpServer>\n'}
+[0.460058] (ros_app) StderrLine: {'line': b'      |          ^~~~~~~~~~~~\n'}
+[0.460145] (ros_app) StderrLine: {'line': b'compilation terminated.\n'}
+[0.462201] (ros_app) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:76: CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o] Error 1\n'}
+[0.462319] (ros_app) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[0.462395] (ros_app) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:104: CMakeFiles/MainWindow.dir/src/source/UnityConnector.cpp.o] Error 1\n'}
+[0.465053] (ros_app) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2\n'}
+[0.465177] (ros_app) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.475564] (ros_app) CommandEnded: {'returncode': 2}
+[0.501755] (-) TimerEvent: {}
+[0.565305] (ros_app) JobEnded: {'identifier': 'ros_app', 'rc': 2}
+[0.567165] (-) EventReactorShutdown: {}

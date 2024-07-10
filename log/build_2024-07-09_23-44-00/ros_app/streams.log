@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.089s] [ 25%] Automatic MOC and UIC for target MainWindow
+[0.121s] [ 25%] Built target MainWindow_autogen
+[0.157s] [ 50%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o
+[0.158s] [ 75%] Building CXX object CMakeFiles/MainWindow.dir/src/source/UnityConnector.cpp.o
+[0.473s] In file included from /home/yupopoi/ROS-App/src/ros_app/src/source/UnityConnector.cpp:1:
+[0.473s] /home/yupopoi/ROS-App/src/ros_app/src/header/UnityConnector.h:5:10: fatal error: QTcpServer: No such file or directory
+[0.473s]     5 | #include <QTcpServer>
+[0.473s]       |          ^~~~~~~~~~~~
+[0.473s] compilation terminated.
+[0.482s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:90: CMakeFiles/MainWindow.dir/src/source/UnityConnector.cpp.o] Error 1
+[0.482s] gmake[2]: *** Waiting for unfinished jobs....
+[0.485s] In file included from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/moc_UnityConnector.cpp:9,
+[0.485s]                  from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/mocs_compilation.cpp:2:
+[0.485s] /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/../../../../src/ros_app/src/header/UnityConnector.h:5:10: fatal error: QTcpServer: No such file or directory
+[0.485s]     5 | #include <QTcpServer>
+[0.485s]       |          ^~~~~~~~~~~~
+[0.485s] compilation terminated.
+[0.489s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:76: CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o] Error 1
+[0.489s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[0.489s] gmake: *** [Makefile:146: all] Error 2
+[0.494s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

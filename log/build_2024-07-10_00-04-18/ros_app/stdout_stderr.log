@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:30:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "src/source/main.cpp".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:335: cmake_check_build_system] Error 1

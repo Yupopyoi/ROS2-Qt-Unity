@@ -1,0 +1,5 @@
+[0.037s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.397s] [ 10%] Automatic MOC and UIC for target MainWindow
+[2.466s] [ 10%] Built target MainWindow_autogen
+[2.705s] Consolidate compiler generated dependencies of target MainWindow
+[2.805s] [ 20%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o

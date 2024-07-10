@@ -1,0 +1,27 @@
+[0.023s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.181s] [ 20%] Automatic MOC and UIC for target MainWindow
+[0.641s] [ 20%] Built target MainWindow_autogen
+[0.702s] Consolidate compiler generated dependencies of target MainWindow
+[0.770s] [ 40%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o
+[0.780s] [ 60%] Building CXX object CMakeFiles/MainWindow.dir/src/source/UnityConnector.cpp.o
+[5.277s] [ 80%] Linking CXX executable MainWindow
+[5.576s] [100%] Built target MainWindow
+[5.595s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[5.808s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yupopoi/ROS-App/build/ros_app
+[5.818s] -- Install configuration: "Debug"
+[5.823s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/package_run_dependencies/ros_app
+[5.824s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/parent_prefix_path/ros_app
+[5.824s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.sh
+[5.824s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.dsv
+[5.824s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.sh
+[5.825s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.dsv
+[5.825s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.bash
+[5.825s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.sh
+[5.825s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.zsh
+[5.826s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.dsv
+[5.826s] -- Installing: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.dsv
+[5.826s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/packages/ros_app
+[5.826s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig.cmake
+[5.827s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig-version.cmake
+[5.827s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.xml
+[5.839s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yupopoi/ROS-App/build/ros_app

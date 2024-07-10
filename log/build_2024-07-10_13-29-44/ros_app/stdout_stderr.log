@@ -1,0 +1,12 @@
+[ 11%] Automatic MOC and UIC for target MainWindow
+[ 11%] Built target MainWindow_autogen
+[ 22%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o
+[ 33%] Linking CXX executable MainWindow
+/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/main.cpp.o: in function `main::{lambda()#3}::operator()() const':
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:46: undefined reference to `JointStateHandler::Subscribe(QByteArray)'
+/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/main.cpp.o: in function `JointStateHandler::JointStateHandler()':
+/home/yupopoi/ROS-App/src/ros_app/src/header/JointStateHandler.h:11: undefined reference to `vtable for JointStateHandler'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:322: MainWindow] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,20 @@
+[ 20%] Automatic MOC and UIC for target MainWindow
+[ 20%] Built target MainWindow_autogen
+Consolidate compiler generated dependencies of target MainWindow
+[ 40%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp: In function ‘int main()’:
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:3:10: error: ‘cout’ is not a member of ‘std’
+    3 |     std::cout << "Hello, World" << std::endl;
+      |          ^~~~
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:1:1: note: ‘std::cout’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+  +++ |+#include <iostream>
+    1 | int main()
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:3:41: error: ‘endl’ is not a member of ‘std’
+    3 |     std::cout << "Hello, World" << std::endl;
+      |                                         ^~~~
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:1:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+  +++ |+#include <ostream>
+    1 | int main()
+gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:90: CMakeFiles/MainWindow.dir/src/source/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

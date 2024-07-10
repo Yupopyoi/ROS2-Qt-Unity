@@ -1,0 +1,49 @@
+[0.011s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.047s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.164s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.195s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.198s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.204s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.214s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.287s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.400s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.667s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.738s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.739s] -- Configured cppcheck include dirs: /home/yupopoi/ROS-App/src/ros_app/src/header;/home/yupopoi/ROS-App/src/ros_app/src/source;/home/yupopoi/ROS-App/src/ros_app/src/ui
+[0.739s] -- Configured cppcheck exclude dirs and/or files: 
+[0.739s] -- Added test 'lint_cmake' to check CMake code style
+[0.743s] -- Added test 'uncrustify' to check C / C++ code style
+[0.743s] -- Configured uncrustify additional arguments: 
+[0.743s] -- Added test 'xmllint' to check XML markup files
+[0.743s] -- Configuring done
+[0.785s] -- Generating done
+[0.789s] -- Build files have been written to: /home/yupopoi/ROS-App/build/ros_app
+[0.839s] [ 20%] Automatic MOC and UIC for target MainWindow
+[1.190s] [ 20%] Built target MainWindow_autogen
+[1.206s] Consolidate compiler generated dependencies of target MainWindow
+[1.219s] [ 40%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o
+[1.220s] [ 60%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o
+[1.251s] [ 80%] Building CXX object CMakeFiles/MainWindow.dir/src/source/UnityConnector.cpp.o
+[3.971s] [100%] Linking CXX executable MainWindow
+[4.238s] [100%] Built target MainWindow
+[4.249s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[4.327s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yupopoi/ROS-App/build/ros_app
+[4.336s] -- Install configuration: "Debug"
+[4.336s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/package_run_dependencies/ros_app
+[4.336s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/parent_prefix_path/ros_app
+[4.336s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.sh
+[4.337s] -- Installing: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.dsv
+[4.337s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.sh
+[4.337s] -- Installing: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.dsv
+[4.337s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.bash
+[4.337s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.sh
+[4.337s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.zsh
+[4.337s] -- Installing: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.dsv
+[4.338s] -- Installing: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.dsv
+[4.338s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/packages/ros_app
+[4.338s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig.cmake
+[4.338s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig-version.cmake
+[4.338s] -- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.xml
+[4.342s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yupopoi/ROS-App/build/ros_app

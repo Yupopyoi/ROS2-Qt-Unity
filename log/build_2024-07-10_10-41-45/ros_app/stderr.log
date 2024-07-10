@@ -1,0 +1,12 @@
+/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `mainwindow::mainwindow(QWidget*)':
+/home/yupopoi/ROS-App/src/ros_app/src/source/mainwindow.cpp:20: undefined reference to `JointAngleChanger::onAnyChanged()'
+/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `mainwindow::JointAngles() const':
+/home/yupopoi/ROS-App/src/ros_app/src/source/mainwindow.cpp:42: undefined reference to `JointAngleChanger::JointAngles()'
+/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `QMetaObject::Connection QObject::connect<void (JointAngleChanger::*)(), mainwindow::mainwindow(QWidget*)::{lambda()#1}>(QtPrivate::FunctionPointer<void (JointAngleChanger::*)()>::Object const*, void (JointAngleChanger::*)(), QtPrivate::ContextTypeForFunctor<mainwindow::mainwindow(QWidget*)::{lambda()#1}, void>::ContextType const*, mainwindow::mainwindow(QWidget*)::{lambda()#1}&&, Qt::ConnectionType)':
+/home/yupopoi/Qt/6.7.2/gcc_64/include/QtCore/qobject.h:263: undefined reference to `JointAngleChanger::staticMetaObject'
+/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `std::_MakeUniq<JointAngleChanger>::__single_object std::make_unique<JointAngleChanger, QList<QDoubleSpinBox*>&>(QList<QDoubleSpinBox*>&)':
+/usr/include/c++/11/bits/unique_ptr.h:962: undefined reference to `JointAngleChanger::JointAngleChanger(QList<QDoubleSpinBox*>)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:218: MainWindow] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

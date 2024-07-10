@@ -1,0 +1,15 @@
+/home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/package_run_dependencies/ros_app
+/home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/parent_prefix_path/ros_app
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.sh
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.dsv
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.sh
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.dsv
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.bash
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.sh
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.zsh
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.dsv
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.dsv
+/home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/packages/ros_app
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig.cmake
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig-version.cmake
+/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.xml

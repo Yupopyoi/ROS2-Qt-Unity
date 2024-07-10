@@ -1,0 +1,11 @@
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/uninstall.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/ros_app_uninstall.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/MainWindow.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/test.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/edit_cache.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/rebuild_cache.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/list_install_components.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/install.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/install/local.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/install/strip.dir
+/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/MainWindow_autogen.dir

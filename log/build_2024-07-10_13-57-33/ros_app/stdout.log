@@ -1,0 +1,4 @@
+[ 10%] Automatic MOC and UIC for target MainWindow
+[ 10%] Built target MainWindow_autogen
+Consolidate compiler generated dependencies of target MainWindow
+[ 20%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o

@@ -1,0 +1,26 @@
+/home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp: In constructor ‘JointAngleChanger::JointAngleChanger(QVector<QDoubleSpinBox*>)’:
+/home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:15:28: error: capture of non-variable ‘JointAngleChanger::spinBoxes_’
+   15 |                          [&spinBoxes_[i]](double value)
+      |                            ^~~~~~~~~~
+In file included from /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:1:
+/home/yupopoi/ROS-App/src/ros_app/src/header/JointAngleChanger.h:21:31: note: ‘QVector<QDoubleSpinBox*> JointAngleChanger::spinBoxes_’ declared here
+   21 |     QVector<QDoubleSpinBox *> spinBoxes_;
+      |                               ^~~~~~~~~~
+/home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:15:38: error: expected ‘,’ before ‘[’ token
+   15 |                          [&spinBoxes_[i]](double value)
+      |                                      ^
+      |                                      ,
+/home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:15:38: error: expected identifier before ‘[’ token
+/home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp: In lambda function:
+/home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:17:46: error: ‘i’ is not captured
+   17 |                             onSpinboxChanged(i, value);
+      |                                              ^
+/home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:15:41: note: the lambda has no capture-default
+   15 |                          [&spinBoxes_[i]](double value)
+      |                                         ^
+/home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:7:13: note: ‘int i’ declared here
+    7 |     for(int i = 0; i < spinBoxes.size(); i++)
+      |             ^
+gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:123: CMakeFiles/MainWindow.dir/src/source/JointAngleChanger.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

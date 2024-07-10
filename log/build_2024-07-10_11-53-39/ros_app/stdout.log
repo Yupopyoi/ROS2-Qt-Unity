@@ -1,0 +1,4 @@
+[ 11%] Automatic MOC and UIC for target MainWindow
+[ 11%] Built target MainWindow_autogen
+Consolidate compiler generated dependencies of target MainWindow
+[ 22%] Building CXX object CMakeFiles/MainWindow.dir/src/source/SerializedTrajectoryMaker.cpp.o

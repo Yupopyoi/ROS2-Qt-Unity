@@ -1,0 +1,13 @@
+[0.039s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.609s] [ 11%] Automatic MOC and UIC for target MainWindow
+[0.663s] [ 11%] Built target MainWindow_autogen
+[0.770s] [ 22%] Building CXX object CMakeFiles/MainWindow.dir/src/source/SerializedTrajectoryMaker.cpp.o
+[1.657s] In file included from /home/yupopoi/ROS-App/src/ros_app/src/source/SerializedTrajectoryMaker.cpp:1:
+[1.657s] /home/yupopoi/ROS-App/src/ros_app/src/header/SerializedTrajectoryMaker.h:8:10: fatal error: moveit_msgs/msg/robot_trajectory.hpp: No such file or directory
+[1.657s]     8 | #include <moveit_msgs/msg/robot_trajectory.hpp>
+[1.657s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.657s] compilation terminated.
+[1.665s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:151: CMakeFiles/MainWindow.dir/src/source/SerializedTrajectoryMaker.cpp.o] Error 1
+[1.665s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[1.665s] gmake: *** [Makefile:146: all] Error 2
+[1.665s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

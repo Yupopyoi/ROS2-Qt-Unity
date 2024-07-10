@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.085s] [ 16%] Automatic MOC and UIC for target MainWindow
+[0.097s] AutoGen warning: "SRC:/src/source/mainwindow.cpp" is empty.
+[0.097s] 
+[0.097s] 
+[0.098s] AutoUic error
+[0.098s] -------------
+[0.098s] "SRC:/src/header/mainwindow.h"
+[0.098s] includes the uic file "ui_mainwindow.h",
+[0.098s] but the user interface file "mainwindow.ui"
+[0.098s] could not be found in the following directories
+[0.098s]   "SRC:/src/header"
+[0.098s]   "SRC:/ui"
+[0.098s] 
+[0.107s] gmake[2]: *** [CMakeFiles/MainWindow_autogen.dir/build.make:71: CMakeFiles/MainWindow_autogen] Error 1
+[0.107s] gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/MainWindow_autogen.dir/all] Error 2
+[0.107s] gmake: *** [Makefile:146: all] Error 2
+[0.108s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

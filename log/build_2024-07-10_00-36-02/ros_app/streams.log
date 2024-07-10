@@ -1,0 +1,22 @@
+[0.031s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.096s] [ 20%] Automatic MOC and UIC for target MainWindow
+[0.126s] [ 20%] Built target MainWindow_autogen
+[0.147s] Consolidate compiler generated dependencies of target MainWindow
+[0.163s] [ 40%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o
+[0.175s] /home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp: In function ‘int main()’:
+[0.176s] /home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:3:10: error: ‘cout’ is not a member of ‘std’
+[0.176s]     3 |     std::cout << "Hello, World" << std::endl;
+[0.176s]       |          ^~~~
+[0.176s] /home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:1:1: note: ‘std::cout’ is defined in header ‘<iostream>’; did you forget to ‘#include <iostream>’?
+[0.176s]   +++ |+#include <iostream>
+[0.176s]     1 | int main()
+[0.176s] /home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:3:41: error: ‘endl’ is not a member of ‘std’
+[0.176s]     3 |     std::cout << "Hello, World" << std::endl;
+[0.176s]       |                                         ^~~~
+[0.176s] /home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:1:1: note: ‘std::endl’ is defined in header ‘<ostream>’; did you forget to ‘#include <ostream>’?
+[0.177s]   +++ |+#include <ostream>
+[0.177s]     1 | int main()
+[0.178s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:90: CMakeFiles/MainWindow.dir/src/source/main.cpp.o] Error 1
+[0.178s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[0.178s] gmake: *** [Makefile:146: all] Error 2
+[0.184s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

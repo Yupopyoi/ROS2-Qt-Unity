@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.006069] (ros_app) JobQueued: {'identifier': 'ros_app', 'dependencies': OrderedDict()}
+[0.006118] (ros_app) JobStarted: {'identifier': 'ros_app'}
+[0.059332] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'cmake'}
+[0.060895] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'build'}
+[0.060948] (ros_app) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yupopoi/ROS-App/build/ros_app', '--', '-j2', '-l2'], 'cwd': '/home/yupopoi/ROS-App/build/ros_app', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'yupopoi'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '124'), ('HOME', '/home/yupopoi'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/yupopoi/Qt/6.7.2/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/yupopoi/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1002'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1194'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12401'), ('COLCON_PREFIX_PATH', '/home/yupopoi/ROS-App/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'yupopoi'), ('JOURNAL_STREAM', '8:32944'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('QSG_RHI_BACKEND', 'opengl'), ('TERM', 'xterm'), ('USERNAME', 'yupopoi'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', 'c789fe05f65749fd90d72feeaf56253e'), ('SESSION_MANAGER', 'local/yupopoi-u2:@/tmp/.ICE-unix/1171,unix/yupopoi-u2:/tmp/.ICE-unix/1171'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2HUPQ2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yupopoi/ROS-App/build/ros_app'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/home/yupopoi/Qt/6.7.2/gcc_64/lib/cmake:/opt/ros/humble'), ('GTK_THEME', ':light')]), 'shell': False}
+[0.099946] (-) TimerEvent: {}
+[0.200222] (-) TimerEvent: {}
+[0.300511] (-) TimerEvent: {}
+[0.333571] (ros_app) StdoutLine: {'line': b'[ 14%] Automatic MOC and UIC for target MainWindow\n'}
+[0.400727] (-) TimerEvent: {}
+[0.501049] (-) TimerEvent: {}
+[0.601341] (-) TimerEvent: {}
+[0.701624] (-) TimerEvent: {}
+[0.801918] (-) TimerEvent: {}
+[0.902208] (-) TimerEvent: {}
+[1.002502] (-) TimerEvent: {}
+[1.102802] (-) TimerEvent: {}
+[1.203124] (-) TimerEvent: {}
+[1.303406] (-) TimerEvent: {}
+[1.403690] (-) TimerEvent: {}
+[1.504012] (-) TimerEvent: {}
+[1.604308] (-) TimerEvent: {}
+[1.704602] (-) TimerEvent: {}
+[1.804893] (-) TimerEvent: {}
+[1.908550] (-) TimerEvent: {}
+[2.008852] (-) TimerEvent: {}
+[2.109177] (-) TimerEvent: {}
+[2.209477] (-) TimerEvent: {}
+[2.309779] (-) TimerEvent: {}
+[2.410080] (-) TimerEvent: {}
+[2.510388] (-) TimerEvent: {}
+[2.610711] (-) TimerEvent: {}
+[2.711037] (-) TimerEvent: {}
+[2.811342] (-) TimerEvent: {}
+[2.911686] (-) TimerEvent: {}
+[3.012057] (-) TimerEvent: {}
+[3.112379] (-) TimerEvent: {}
+[3.212706] (-) TimerEvent: {}
+[3.313027] (-) TimerEvent: {}
+[3.413336] (-) TimerEvent: {}
+[3.513750] (-) TimerEvent: {}
+[3.614052] (-) TimerEvent: {}
+[3.714386] (-) TimerEvent: {}
+[3.814688] (-) TimerEvent: {}
+[3.915027] (-) TimerEvent: {}
+[4.017366] (-) TimerEvent: {}
+[4.117700] (-) TimerEvent: {}
+[4.180090] (ros_app) StdoutLine: {'line': b'[ 14%] Built target MainWindow_autogen\n'}
+[4.217842] (-) TimerEvent: {}
+[4.296693] (ros_app) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target MainWindow\n'}
+[4.317951] (-) TimerEvent: {}
+[4.356753] (ros_app) StdoutLine: {'line': b'[ 28%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o\n'}
+[4.386175] (ros_app) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o\n'}
+[4.418067] (-) TimerEvent: {}
+[4.518348] (-) TimerEvent: {}
+[4.618632] (-) TimerEvent: {}
+[4.718922] (-) TimerEvent: {}
+[4.819217] (-) TimerEvent: {}
+[4.919509] (-) TimerEvent: {}
+[5.019864] (-) TimerEvent: {}
+[5.120157] (-) TimerEvent: {}
+[5.220448] (-) TimerEvent: {}
+[5.320735] (-) TimerEvent: {}
+[5.421020] (-) TimerEvent: {}
+[5.521304] (-) TimerEvent: {}
+[5.621596] (-) TimerEvent: {}
+[5.721924] (-) TimerEvent: {}
+[5.822246] (-) TimerEvent: {}
+[5.922531] (-) TimerEvent: {}
+[6.022984] (-) TimerEvent: {}
+[6.124149] (-) TimerEvent: {}
+[6.224472] (-) TimerEvent: {}
+[6.324783] (-) TimerEvent: {}
+[6.425098] (-) TimerEvent: {}
+[6.525379] (-) TimerEvent: {}
+[6.625666] (-) TimerEvent: {}
+[6.726012] (-) TimerEvent: {}
+[6.828962] (-) TimerEvent: {}
+[6.929325] (-) TimerEvent: {}
+[7.031554] (-) TimerEvent: {}
+[7.131896] (-) TimerEvent: {}
+[7.232183] (-) TimerEvent: {}
+[7.236348] (ros_app) StderrLine: {'line': b'In file included from /home/yupopoi/ROS-App/src/ros_app/src/source/mainwindow.cpp:1:\n'}
+[7.236519] (ros_app) StderrLine: {'line': b'/home/yupopoi/ROS-App/src/ros_app/src/header/mainwindow.h:13:10: fatal error: Eigen/Geometry: No such file or directory\n'}
+[7.236606] (ros_app) StderrLine: {'line': b'   13 | #include <Eigen/Geometry>\n'}
+[7.236686] (ros_app) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~\n'}
+[7.236763] (ros_app) StderrLine: {'line': b'compilation terminated.\n'}
+[7.319761] (ros_app) StderrLine: {'line': b'In file included from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/moc_mainwindow.cpp:9,\n'}
+[7.319949] (ros_app) StderrLine: {'line': b'                 from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/mocs_compilation.cpp:3:\n'}
+[7.320036] (ros_app) StderrLine: {'line': b'/home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/../../../../src/ros_app/src/header/mainwindow.h:13:10: fatal error: Eigen/Geometry: No such file or directory\n'}
+[7.320119] (ros_app) StderrLine: {'line': b'   13 | #include <Eigen/Geometry>\n'}
+[7.320198] (ros_app) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~\n'}
+[7.320276] (ros_app) StderrLine: {'line': b'compilation terminated.\n'}
+[7.332288] (-) TimerEvent: {}
+[7.395598] (ros_app) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:123: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o] Error 1\n'}
+[7.395791] (ros_app) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[7.395878] (ros_app) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:81: CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o] Error 1\n'}
+[7.397871] (ros_app) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2\n'}
+[7.398200] (ros_app) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.398359] (ros_app) CommandEnded: {'returncode': 2}
+[7.432398] (-) TimerEvent: {}
+[7.532666] (-) TimerEvent: {}
+[7.632939] (-) TimerEvent: {}
+[7.733227] (-) TimerEvent: {}
+[7.833500] (-) TimerEvent: {}
+[7.933777] (-) TimerEvent: {}
+[7.989800] (ros_app) JobEnded: {'identifier': 'ros_app', 'rc': 2}
+[8.006402] (-) EventReactorShutdown: {}

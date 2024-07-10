@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.002405] (ros_app) JobQueued: {'identifier': 'ros_app', 'dependencies': OrderedDict()}
+[0.002477] (ros_app) JobStarted: {'identifier': 'ros_app'}
+[0.013202] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'cmake'}
+[0.017716] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'build'}
+[0.017761] (ros_app) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yupopoi/ROS-App/build/ros_app', '--', '-j2', '-l2'], 'cwd': '/home/yupopoi/ROS-App/build/ros_app', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'yupopoi'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '12'), ('HOME', '/home/yupopoi'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/yupopoi/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '894'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1235'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11637'), ('COLCON_PREFIX_PATH', '/home/yupopoi/ROS-App/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'yupopoi'), ('JOURNAL_STREAM', '8:29359'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('QSG_RHI_BACKEND', 'opengl'), ('TERM', 'xterm'), ('USERNAME', 'yupopoi'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', '02055485e42e450db101b3f30c82da1d'), ('SESSION_MANAGER', 'local/yupopoi-u2:@/tmp/.ICE-unix/1211,unix/yupopoi-u2:/tmp/.ICE-unix/1211'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.UK7NQ2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yupopoi/ROS-App/build/ros_app'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/opt/ros/humble'), ('GTK_THEME', ':light')]), 'shell': False}
+[0.099973] (-) TimerEvent: {}
+[0.102918] (ros_app) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.204680] (-) TimerEvent: {}
+[0.307897] (-) TimerEvent: {}
+[0.408286] (-) TimerEvent: {}
+[0.444645] (ros_app) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.509225] (-) TimerEvent: {}
+[0.576341] (ros_app) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.593259] (ros_app) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.609354] (-) TimerEvent: {}
+[0.628740] (ros_app) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.688914] (ros_app) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.711385] (-) TimerEvent: {}
+[0.760326] (ros_app) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.811834] (-) TimerEvent: {}
+[0.912112] (-) TimerEvent: {}
+[0.952449] (ros_app) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.967471] (ros_app) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.012582] (-) TimerEvent: {}
+[1.113796] (-) TimerEvent: {}
+[1.189808] (ros_app) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.213876] (-) TimerEvent: {}
+[1.314249] (-) TimerEvent: {}
+[1.414599] (-) TimerEvent: {}
+[1.427625] (ros_app) StderrLine: {'line': b'CMake Error at CMakeLists.txt:20 (find_package):\n'}
+[1.428038] (ros_app) StderrLine: {'line': b'  By not providing "FindQt6.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.428302] (ros_app) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "Qt6", but\n'}
+[1.428435] (ros_app) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.428523] (ros_app) StderrLine: {'line': b'\n'}
+[1.428602] (ros_app) StderrLine: {'line': b'  Could not find a package configuration file provided by "Qt6" with any of\n'}
+[1.428680] (ros_app) StderrLine: {'line': b'  the following names:\n'}
+[1.428756] (ros_app) StderrLine: {'line': b'\n'}
+[1.428831] (ros_app) StderrLine: {'line': b'    Qt6Config.cmake\n'}
+[1.428905] (ros_app) StderrLine: {'line': b'    qt6-config.cmake\n'}
+[1.429051] (ros_app) StderrLine: {'line': b'\n'}
+[1.429132] (ros_app) StderrLine: {'line': b'  Add the installation prefix of "Qt6" to CMAKE_PREFIX_PATH or set "Qt6_DIR"\n'}
+[1.429265] (ros_app) StderrLine: {'line': b'  to a directory containing one of the above files.  If "Qt6" provides a\n'}
+[1.429345] (ros_app) StderrLine: {'line': b'  separate development package or SDK, be sure it has been installed.\n'}
+[1.429422] (ros_app) StderrLine: {'line': b'\n'}
+[1.429497] (ros_app) StderrLine: {'line': b'\n'}
+[1.429572] (ros_app) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.429657] (ros_app) StdoutLine: {'line': b'See also "/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/CMakeOutput.log".\n'}
+[1.437767] (ros_app) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[1.438663] (ros_app) CommandEnded: {'returncode': 2}
+[1.505396] (ros_app) JobEnded: {'identifier': 'ros_app', 'rc': 2}
+[1.514861] (-) TimerEvent: {}
+[1.516186] (-) EventReactorShutdown: {}

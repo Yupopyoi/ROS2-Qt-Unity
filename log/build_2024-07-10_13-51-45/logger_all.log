@@ -1,0 +1,140 @@
+[0.363s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'status+', 'console_start_end+', '--cmake-args', '-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug']
+[0.363s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=['status+', 'console_start_end+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fc16ba41630>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc16ba41090>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc16ba41090>>, mixin_verb=('build',))
+[0.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.768s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.769s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.769s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yupopoi/ROS-App'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extensions ['ignore', 'ignore_ament_install']
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extension 'ignore'
+[0.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extension 'ignore_ament_install'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extensions ['colcon_pkg']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extension 'colcon_pkg'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extensions ['colcon_meta']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extension 'colcon_meta'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extensions ['ros']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_app) by extension 'ros'
+[0.808s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_app' with type 'ros.ament_cmake' and name 'ros_app'
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.850s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.856s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/yupopoi/ROS-App/install
+[0.862s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 310 installed packages in /opt/ros/humble
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'cmake_args' from command line to '['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug']'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'cmake_target' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'cmake_clean_cache' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'cmake_clean_first' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'cmake_force_configure' from command line to 'False'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'ament_cmake_args' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'catkin_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'ros_app' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.992s] DEBUG:colcon.colcon_core.verb:Building package 'ros_app' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yupopoi/ROS-App/build/ros_app', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-G', 'CodeBlocks - Unix Makefiles', '-DCMAKE_BUILD_TYPE=Debug'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yupopoi/ROS-App/install/ros_app', 'merge_install': False, 'path': '/home/yupopoi/ROS-App/src/ros_app', 'symlink_install': False, 'test_result_base': None}
+[0.992s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.998s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yupopoi/ROS-App/src/ros_app' with build type 'ament_cmake'
+[0.998s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yupopoi/ROS-App/src/ros_app'
+[1.001s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[18.922s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[19.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yupopoi/ROS-App/build/ros_app
+[19.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_app)
+[19.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yupopoi/ROS-App/build/ros_app
+[19.206s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app' for CMake module files
+[19.207s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app' for CMake config files
+[19.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_app', 'cmake_prefix_path')
+[19.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/hook/cmake_prefix_path.ps1'
+[19.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/hook/cmake_prefix_path.dsv'
+[19.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/hook/cmake_prefix_path.sh'
+[19.213s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app/bin'
+[19.213s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app/lib/pkgconfig/ros_app.pc'
+[19.214s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app/lib/python3.10/site-packages'
+[19.214s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app/bin'
+[19.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.ps1'
+[19.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.dsv'
+[19.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.sh'
+[19.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.bash'
+[19.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.zsh'
+[19.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yupopoi/ROS-App/install/ros_app/share/colcon-core/packages/ros_app)
+[19.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_app)
+[19.473s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app' for CMake module files
+[19.474s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app' for CMake config files
+[19.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_app', 'cmake_prefix_path')
+[19.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/hook/cmake_prefix_path.ps1'
+[19.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/hook/cmake_prefix_path.dsv'
+[19.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/hook/cmake_prefix_path.sh'
+[19.476s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app/bin'
+[19.476s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app/lib/pkgconfig/ros_app.pc'
+[19.476s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app/lib/python3.10/site-packages'
+[19.476s] Level 1:colcon.colcon_core.environment:checking '/home/yupopoi/ROS-App/install/ros_app/bin'
+[19.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.ps1'
+[19.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.dsv'
+[19.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.sh'
+[19.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.bash'
+[19.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.zsh'
+[19.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yupopoi/ROS-App/install/ros_app/share/colcon-core/packages/ros_app)
+[19.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.483s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.483s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.489s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.489s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.BadAddress: '=' character not found or has no value following it
+[19.489s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yupopoi/ROS-App/install/local_setup.ps1'
+[19.490s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yupopoi/ROS-App/install/_local_setup_util_ps1.py'
+[19.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yupopoi/ROS-App/install/setup.ps1'
+[19.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yupopoi/ROS-App/install/local_setup.sh'
+[19.494s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yupopoi/ROS-App/install/_local_setup_util_sh.py'
+[19.494s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yupopoi/ROS-App/install/setup.sh'
+[19.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yupopoi/ROS-App/install/local_setup.bash'
+[19.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yupopoi/ROS-App/install/setup.bash'
+[19.497s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yupopoi/ROS-App/install/local_setup.zsh'
+[19.498s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yupopoi/ROS-App/install/setup.zsh'

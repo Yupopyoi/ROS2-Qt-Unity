@@ -1,0 +1,19 @@
+[0.042s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.335s] [ 14%] Automatic MOC and UIC for target MainWindow
+[3.996s] [ 14%] Built target MainWindow_autogen
+[4.154s] [ 42%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o
+[4.154s] [ 42%] Building CXX object CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o
+[18.435s] [ 57%] Linking CXX executable MainWindow
+[19.359s] /usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `mainwindow::mainwindow(QWidget*)':
+[19.360s] /home/yupopoi/ROS-App/src/ros_app/src/source/mainwindow.cpp:20: undefined reference to `JointAngleChanger::onAnyChanged()'
+[19.360s] /usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `mainwindow::JointAngles() const':
+[19.360s] /home/yupopoi/ROS-App/src/ros_app/src/source/mainwindow.cpp:42: undefined reference to `JointAngleChanger::JointAngles()'
+[19.360s] /usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `QMetaObject::Connection QObject::connect<void (JointAngleChanger::*)(), mainwindow::mainwindow(QWidget*)::{lambda()#1}>(QtPrivate::FunctionPointer<void (JointAngleChanger::*)()>::Object const*, void (JointAngleChanger::*)(), QtPrivate::ContextTypeForFunctor<mainwindow::mainwindow(QWidget*)::{lambda()#1}, void>::ContextType const*, mainwindow::mainwindow(QWidget*)::{lambda()#1}&&, Qt::ConnectionType)':
+[19.360s] /home/yupopoi/Qt/6.7.2/gcc_64/include/QtCore/qobject.h:263: undefined reference to `JointAngleChanger::staticMetaObject'
+[19.360s] /usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `std::_MakeUniq<JointAngleChanger>::__single_object std::make_unique<JointAngleChanger, QList<QDoubleSpinBox*>&>(QList<QDoubleSpinBox*>&)':
+[19.360s] /usr/include/c++/11/bits/unique_ptr.h:962: undefined reference to `JointAngleChanger::JointAngleChanger(QList<QDoubleSpinBox*>)'
+[19.393s] collect2: error: ld returned 1 exit status
+[19.394s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:218: MainWindow] Error 1
+[19.396s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[19.396s] gmake: *** [Makefile:146: all] Error 2
+[19.401s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

@@ -1,0 +1,16 @@
+[ 16%] Automatic MOC and UIC for target MainWindow
+AutoGen warning: "SRC:/src/source/mainwindow.cpp" is empty.
+
+
+AutoUic error
+-------------
+"SRC:/src/header/mainwindow.h"
+includes the uic file "ui_mainwindow.h",
+but the user interface file "mainwindow.ui"
+could not be found in the following directories
+  "SRC:/src/header"
+  "SRC:/ui"
+
+gmake[2]: *** [CMakeFiles/MainWindow_autogen.dir/build.make:71: CMakeFiles/MainWindow_autogen] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:164: CMakeFiles/MainWindow_autogen.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

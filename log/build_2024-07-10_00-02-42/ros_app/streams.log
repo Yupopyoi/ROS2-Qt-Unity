@@ -1,0 +1,44 @@
+[0.013s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.052s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.175s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.206s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.209s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.216s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.243s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.300s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.300s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.414s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.645s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.708s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.708s] -- Configured cppcheck include dirs: /home/yupopoi/ROS-App/src/ros_app/src/header;/home/yupopoi/ROS-App/src/ros_app/src/source;/home/yupopoi/ROS-App/src/ros_app/src/ui
+[0.708s] -- Configured cppcheck exclude dirs and/or files: 
+[0.712s] -- Added test 'lint_cmake' to check CMake code style
+[0.712s] -- Added test 'uncrustify' to check C / C++ code style
+[0.712s] -- Configured uncrustify additional arguments: 
+[0.712s] -- Added test 'xmllint' to check XML markup files
+[0.712s] -- Configuring done
+[0.756s] -- Generating done
+[0.761s] -- Build files have been written to: /home/yupopoi/ROS-App/build/ros_app
+[0.809s] [ 25%] Automatic MOC and UIC for target MainWindow
+[0.837s] [ 25%] Built target MainWindow_autogen
+[0.851s] Consolidate compiler generated dependencies of target MainWindow
+[0.863s] [ 50%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o
+[0.865s] [ 75%] Building CXX object CMakeFiles/MainWindow.dir/src/source/UnityConnector.cpp.o
+[1.130s] In file included from /home/yupopoi/ROS-App/src/ros_app/src/source/UnityConnector.cpp:1:
+[1.130s] /home/yupopoi/ROS-App/src/ros_app/src/header/UnityConnector.h:5:10: fatal error: QTcpServer: No such file or directory
+[1.130s]     5 | #include <QTcpServer>
+[1.130s]       |          ^~~~~~~~~~~~
+[1.130s] compilation terminated.
+[1.135s] In file included from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/moc_UnityConnector.cpp:9,
+[1.135s]                  from /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/mocs_compilation.cpp:2:
+[1.135s] /home/yupopoi/ROS-App/build/ros_app/MainWindow_autogen/WBNAARIPX6/../../../../src/ros_app/src/header/UnityConnector.h:5:10: fatal error: QTcpServer: No such file or directory
+[1.135s]     5 | #include <QTcpServer>
+[1.135s]       |          ^~~~~~~~~~~~
+[1.135s] compilation terminated.
+[1.135s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:90: CMakeFiles/MainWindow.dir/src/source/UnityConnector.cpp.o] Error 1
+[1.135s] gmake[2]: *** Waiting for unfinished jobs....
+[1.137s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:76: CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o] Error 1
+[1.139s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[1.139s] gmake: *** [Makefile:146: all] Error 2
+[1.139s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

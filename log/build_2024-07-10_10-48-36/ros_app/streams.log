@@ -1,0 +1,32 @@
+[0.034s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.291s] [ 12%] Automatic MOC and UIC for target MainWindow
+[0.382s] [ 12%] Built target MainWindow_autogen
+[0.541s] Consolidate compiler generated dependencies of target MainWindow
+[0.602s] [ 25%] Building CXX object CMakeFiles/MainWindow.dir/src/source/JointAngleChanger.cpp.o
+[4.267s] /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp: In constructor ‘JointAngleChanger::JointAngleChanger(QVector<QDoubleSpinBox*>)’:
+[4.267s] /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:15:28: error: capture of non-variable ‘JointAngleChanger::spinBoxes_’
+[4.267s]    15 |                          [&spinBoxes_[i]](double value)
+[4.267s]       |                            ^~~~~~~~~~
+[4.267s] In file included from /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:1:
+[4.268s] /home/yupopoi/ROS-App/src/ros_app/src/header/JointAngleChanger.h:21:31: note: ‘QVector<QDoubleSpinBox*> JointAngleChanger::spinBoxes_’ declared here
+[4.268s]    21 |     QVector<QDoubleSpinBox *> spinBoxes_;
+[4.268s]       |                               ^~~~~~~~~~
+[4.268s] /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:15:38: error: expected ‘,’ before ‘[’ token
+[4.268s]    15 |                          [&spinBoxes_[i]](double value)
+[4.268s]       |                                      ^
+[4.268s]       |                                      ,
+[4.268s] /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:15:38: error: expected identifier before ‘[’ token
+[4.268s] /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp: In lambda function:
+[4.268s] /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:17:46: error: ‘i’ is not captured
+[4.268s]    17 |                             onSpinboxChanged(i, value);
+[4.268s]       |                                              ^
+[4.268s] /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:15:41: note: the lambda has no capture-default
+[4.269s]    15 |                          [&spinBoxes_[i]](double value)
+[4.269s]       |                                         ^
+[4.269s] /home/yupopoi/ROS-App/src/ros_app/src/source/JointAngleChanger.cpp:7:13: note: ‘int i’ declared here
+[4.269s]     7 |     for(int i = 0; i < spinBoxes.size(); i++)
+[4.269s]       |             ^
+[4.588s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:123: CMakeFiles/MainWindow.dir/src/source/JointAngleChanger.cpp.o] Error 1
+[4.600s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[4.600s] gmake: *** [Makefile:146: all] Error 2
+[4.601s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

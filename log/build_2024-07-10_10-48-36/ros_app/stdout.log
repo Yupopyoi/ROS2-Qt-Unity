@@ -1,0 +1,4 @@
+[ 12%] Automatic MOC and UIC for target MainWindow
+[ 12%] Built target MainWindow_autogen
+Consolidate compiler generated dependencies of target MainWindow
+[ 25%] Building CXX object CMakeFiles/MainWindow.dir/src/source/JointAngleChanger.cpp.o

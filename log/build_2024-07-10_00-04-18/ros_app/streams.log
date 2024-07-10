@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.040s] CMake Error at CMakeLists.txt:30:
+[0.040s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.040s]   "src/source/main.cpp".
+[0.040s] 
+[0.041s] 
+[0.041s] -- Configuring incomplete, errors occurred!
+[0.041s] See also "/home/yupopoi/ROS-App/build/ros_app/CMakeFiles/CMakeOutput.log".
+[0.043s] gmake: *** [Makefile:335: cmake_check_build_system] Error 1
+[0.045s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

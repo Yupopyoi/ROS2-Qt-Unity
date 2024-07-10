@@ -1,0 +1,14 @@
+[0.031s] Invoking command in '/home/yupopoi/ROS-App/build/ros_app': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2
+[0.095s] [ 20%] Automatic MOC and UIC for target MainWindow
+[0.105s] AutoGen warning: "SRC:/src/source/main.cpp" is empty.
+[0.106s] 
+[0.125s] [ 20%] Built target MainWindow_autogen
+[0.159s] [ 40%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o
+[0.186s] [ 60%] Linking CXX executable MainWindow
+[0.415s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.416s] (.text+0x1b): undefined reference to `main'
+[0.429s] collect2: error: ld returned 1 exit status
+[0.430s] gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:197: MainWindow] Error 1
+[0.431s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2
+[0.431s] gmake: *** [Makefile:146: all] Error 2
+[0.438s] Invoked command in '/home/yupopoi/ROS-App/build/ros_app' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yupopoi/ROS-App/build/ros_app -- -j2 -l2

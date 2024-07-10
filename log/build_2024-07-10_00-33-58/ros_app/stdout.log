@@ -1,0 +1,6 @@
+[ 20%] Automatic MOC and UIC for target MainWindow
+AutoGen warning: "SRC:/src/source/main.cpp" is empty.
+
+[ 20%] Built target MainWindow_autogen
+[ 40%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o
+[ 60%] Linking CXX executable MainWindow

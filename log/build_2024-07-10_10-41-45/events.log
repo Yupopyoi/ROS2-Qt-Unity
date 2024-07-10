@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.003713] (ros_app) JobQueued: {'identifier': 'ros_app', 'dependencies': OrderedDict()}
+[0.003754] (ros_app) JobStarted: {'identifier': 'ros_app'}
+[0.044563] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'cmake'}
+[0.045232] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'build'}
+[0.045267] (ros_app) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yupopoi/ROS-App/build/ros_app', '--', '-j2', '-l2'], 'cwd': '/home/yupopoi/ROS-App/build/ros_app', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'yupopoi'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '126'), ('HOME', '/home/yupopoi'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/yupopoi/Qt/6.7.2/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/yupopoi/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1002'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1194'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12401'), ('COLCON_PREFIX_PATH', '/home/yupopoi/ROS-App/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'yupopoi'), ('JOURNAL_STREAM', '8:32944'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('QSG_RHI_BACKEND', 'opengl'), ('TERM', 'xterm'), ('USERNAME', 'yupopoi'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', 'c789fe05f65749fd90d72feeaf56253e'), ('SESSION_MANAGER', 'local/yupopoi-u2:@/tmp/.ICE-unix/1171,unix/yupopoi-u2:/tmp/.ICE-unix/1171'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2HUPQ2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yupopoi/ROS-App/build/ros_app'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/home/yupopoi/Qt/6.7.2/gcc_64/lib/cmake:/opt/ros/humble'), ('GTK_THEME', ':light')]), 'shell': False}
+[0.099948] (-) TimerEvent: {}
+[0.200247] (-) TimerEvent: {}
+[0.300533] (-) TimerEvent: {}
+[0.338541] (ros_app) StdoutLine: {'line': b'[ 14%] Automatic MOC and UIC for target MainWindow\n'}
+[0.400656] (-) TimerEvent: {}
+[0.500972] (-) TimerEvent: {}
+[0.601277] (-) TimerEvent: {}
+[0.701637] (-) TimerEvent: {}
+[0.801940] (-) TimerEvent: {}
+[0.902236] (-) TimerEvent: {}
+[1.003487] (-) TimerEvent: {}
+[1.103771] (-) TimerEvent: {}
+[1.204062] (-) TimerEvent: {}
+[1.304356] (-) TimerEvent: {}
+[1.404692] (-) TimerEvent: {}
+[1.504981] (-) TimerEvent: {}
+[1.605284] (-) TimerEvent: {}
+[1.705596] (-) TimerEvent: {}
+[1.805909] (-) TimerEvent: {}
+[1.906218] (-) TimerEvent: {}
+[2.006540] (-) TimerEvent: {}
+[2.106907] (-) TimerEvent: {}
+[2.215510] (-) TimerEvent: {}
+[2.315967] (-) TimerEvent: {}
+[2.416434] (-) TimerEvent: {}
+[2.516736] (-) TimerEvent: {}
+[2.617041] (-) TimerEvent: {}
+[2.717358] (-) TimerEvent: {}
+[2.817685] (-) TimerEvent: {}
+[2.918010] (-) TimerEvent: {}
+[3.018317] (-) TimerEvent: {}
+[3.118634] (-) TimerEvent: {}
+[3.218988] (-) TimerEvent: {}
+[3.319286] (-) TimerEvent: {}
+[3.419595] (-) TimerEvent: {}
+[3.519941] (-) TimerEvent: {}
+[3.620241] (-) TimerEvent: {}
+[3.720540] (-) TimerEvent: {}
+[3.820845] (-) TimerEvent: {}
+[3.921147] (-) TimerEvent: {}
+[3.999983] (ros_app) StdoutLine: {'line': b'[ 14%] Built target MainWindow_autogen\n'}
+[4.021258] (-) TimerEvent: {}
+[4.121548] (-) TimerEvent: {}
+[4.157604] (ros_app) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/MainWindow.dir/MainWindow_autogen/mocs_compilation.cpp.o\n'}
+[4.157801] (ros_app) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o\n'}
+[4.221665] (-) TimerEvent: {}
+[4.321958] (-) TimerEvent: {}
+[4.422243] (-) TimerEvent: {}
+[4.522533] (-) TimerEvent: {}
+[4.622829] (-) TimerEvent: {}
+[4.723158] (-) TimerEvent: {}
+[4.823459] (-) TimerEvent: {}
+[4.923768] (-) TimerEvent: {}
+[5.024066] (-) TimerEvent: {}
+[5.124361] (-) TimerEvent: {}
+[5.224662] (-) TimerEvent: {}
+[5.324965] (-) TimerEvent: {}
+[5.425270] (-) TimerEvent: {}
+[5.525563] (-) TimerEvent: {}
+[5.625889] (-) TimerEvent: {}
+[5.726186] (-) TimerEvent: {}
+[5.826479] (-) TimerEvent: {}
+[5.926780] (-) TimerEvent: {}
+[6.027924] (-) TimerEvent: {}
+[6.128220] (-) TimerEvent: {}
+[6.230077] (-) TimerEvent: {}
+[6.330355] (-) TimerEvent: {}
+[6.430647] (-) TimerEvent: {}
+[6.530978] (-) TimerEvent: {}
+[6.631273] (-) TimerEvent: {}
+[6.731570] (-) TimerEvent: {}
+[6.831883] (-) TimerEvent: {}
+[6.932177] (-) TimerEvent: {}
+[7.032472] (-) TimerEvent: {}
+[7.133404] (-) TimerEvent: {}
+[7.233692] (-) TimerEvent: {}
+[7.333996] (-) TimerEvent: {}
+[7.434394] (-) TimerEvent: {}
+[7.534683] (-) TimerEvent: {}
+[7.634978] (-) TimerEvent: {}
+[7.735279] (-) TimerEvent: {}
+[7.835584] (-) TimerEvent: {}
+[7.935902] (-) TimerEvent: {}
+[8.036202] (-) TimerEvent: {}
+[8.136502] (-) TimerEvent: {}
+[8.236805] (-) TimerEvent: {}
+[8.337156] (-) TimerEvent: {}
+[8.437461] (-) TimerEvent: {}
+[8.537756] (-) TimerEvent: {}
+[8.638116] (-) TimerEvent: {}
+[8.738414] (-) TimerEvent: {}
+[8.838713] (-) TimerEvent: {}
+[8.939047] (-) TimerEvent: {}
+[9.039350] (-) TimerEvent: {}
+[9.139674] (-) TimerEvent: {}
+[9.239987] (-) TimerEvent: {}
+[9.340281] (-) TimerEvent: {}
+[9.440580] (-) TimerEvent: {}
+[9.540911] (-) TimerEvent: {}
+[9.641208] (-) TimerEvent: {}
+[9.741509] (-) TimerEvent: {}
+[9.841879] (-) TimerEvent: {}
+[9.942179] (-) TimerEvent: {}
+[10.042475] (-) TimerEvent: {}
+[10.142781] (-) TimerEvent: {}
+[10.243095] (-) TimerEvent: {}
+[10.343518] (-) TimerEvent: {}
+[10.443867] (-) TimerEvent: {}
+[10.544171] (-) TimerEvent: {}
+[10.644474] (-) TimerEvent: {}
+[10.744833] (-) TimerEvent: {}
+[10.845211] (-) TimerEvent: {}
+[10.945510] (-) TimerEvent: {}
+[11.046604] (-) TimerEvent: {}
+[11.146949] (-) TimerEvent: {}
+[11.247243] (-) TimerEvent: {}
+[11.347568] (-) TimerEvent: {}
+[11.447894] (-) TimerEvent: {}
+[11.548209] (-) TimerEvent: {}
+[11.648631] (-) TimerEvent: {}
+[11.748978] (-) TimerEvent: {}
+[11.849427] (-) TimerEvent: {}
+[11.949735] (-) TimerEvent: {}
+[12.050030] (-) TimerEvent: {}
+[12.150432] (-) TimerEvent: {}
+[12.250721] (-) TimerEvent: {}
+[12.351041] (-) TimerEvent: {}
+[12.451372] (-) TimerEvent: {}
+[12.551666] (-) TimerEvent: {}
+[12.651979] (-) TimerEvent: {}
+[12.752315] (-) TimerEvent: {}
+[12.852611] (-) TimerEvent: {}
+[12.953335] (-) TimerEvent: {}
+[13.053659] (-) TimerEvent: {}
+[13.153958] (-) TimerEvent: {}
+[13.254261] (-) TimerEvent: {}
+[13.354570] (-) TimerEvent: {}
+[13.454943] (-) TimerEvent: {}
+[13.555285] (-) TimerEvent: {}
+[13.655678] (-) TimerEvent: {}
+[13.756034] (-) TimerEvent: {}
+[13.856361] (-) TimerEvent: {}
+[13.956657] (-) TimerEvent: {}
+[14.056961] (-) TimerEvent: {}
+[14.157366] (-) TimerEvent: {}
+[14.257675] (-) TimerEvent: {}
+[14.358010] (-) TimerEvent: {}
+[14.458322] (-) TimerEvent: {}
+[14.558630] (-) TimerEvent: {}
+[14.658935] (-) TimerEvent: {}
+[14.759234] (-) TimerEvent: {}
+[14.859533] (-) TimerEvent: {}
+[14.959876] (-) TimerEvent: {}
+[15.060173] (-) TimerEvent: {}
+[15.160465] (-) TimerEvent: {}
+[15.260806] (-) TimerEvent: {}
+[15.361714] (-) TimerEvent: {}
+[15.462620] (-) TimerEvent: {}
+[15.562954] (-) TimerEvent: {}
+[15.663279] (-) TimerEvent: {}
+[15.763610] (-) TimerEvent: {}
+[15.863935] (-) TimerEvent: {}
+[15.964233] (-) TimerEvent: {}
+[16.065167] (-) TimerEvent: {}
+[16.165483] (-) TimerEvent: {}
+[16.265792] (-) TimerEvent: {}
+[16.366108] (-) TimerEvent: {}
+[16.466413] (-) TimerEvent: {}
+[16.566708] (-) TimerEvent: {}
+[16.667147] (-) TimerEvent: {}
+[16.767488] (-) TimerEvent: {}
+[16.867768] (-) TimerEvent: {}
+[16.968097] (-) TimerEvent: {}
+[17.068423] (-) TimerEvent: {}
+[17.168733] (-) TimerEvent: {}
+[17.269037] (-) TimerEvent: {}
+[17.369352] (-) TimerEvent: {}
+[17.469654] (-) TimerEvent: {}
+[17.569953] (-) TimerEvent: {}
+[17.670263] (-) TimerEvent: {}
+[17.770562] (-) TimerEvent: {}
+[17.870866] (-) TimerEvent: {}
+[17.971164] (-) TimerEvent: {}
+[18.071466] (-) TimerEvent: {}
+[18.171767] (-) TimerEvent: {}
+[18.272097] (-) TimerEvent: {}
+[18.372386] (-) TimerEvent: {}
+[18.438886] (ros_app) StdoutLine: {'line': b'[ 57%] Linking CXX executable MainWindow\n'}
+[18.472529] (-) TimerEvent: {}
+[18.572881] (-) TimerEvent: {}
+[18.673193] (-) TimerEvent: {}
+[18.773515] (-) TimerEvent: {}
+[18.873847] (-) TimerEvent: {}
+[18.974348] (-) TimerEvent: {}
+[19.074635] (-) TimerEvent: {}
+[19.174926] (-) TimerEvent: {}
+[19.275225] (-) TimerEvent: {}
+[19.363060] (ros_app) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `mainwindow::mainwindow(QWidget*)':\n"}
+[19.363268] (ros_app) StderrLine: {'line': b"/home/yupopoi/ROS-App/src/ros_app/src/source/mainwindow.cpp:20: undefined reference to `JointAngleChanger::onAnyChanged()'\n"}
+[19.363357] (ros_app) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `mainwindow::JointAngles() const':\n"}
+[19.363444] (ros_app) StderrLine: {'line': b"/home/yupopoi/ROS-App/src/ros_app/src/source/mainwindow.cpp:42: undefined reference to `JointAngleChanger::JointAngles()'\n"}
+[19.363522] (ros_app) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `QMetaObject::Connection QObject::connect<void (JointAngleChanger::*)(), mainwindow::mainwindow(QWidget*)::{lambda()#1}>(QtPrivate::FunctionPointer<void (JointAngleChanger::*)()>::Object const*, void (JointAngleChanger::*)(), QtPrivate::ContextTypeForFunctor<mainwindow::mainwindow(QWidget*)::{lambda()#1}, void>::ContextType const*, mainwindow::mainwindow(QWidget*)::{lambda()#1}&&, Qt::ConnectionType)':\n"}
+[19.363604] (ros_app) StderrLine: {'line': b"/home/yupopoi/Qt/6.7.2/gcc_64/include/QtCore/qobject.h:263: undefined reference to `JointAngleChanger::staticMetaObject'\n"}
+[19.363809] (ros_app) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/MainWindow.dir/src/source/mainwindow.cpp.o: in function `std::_MakeUniq<JointAngleChanger>::__single_object std::make_unique<JointAngleChanger, QList<QDoubleSpinBox*>&>(QList<QDoubleSpinBox*>&)':\n"}
+[19.363897] (ros_app) StderrLine: {'line': b"/usr/include/c++/11/bits/unique_ptr.h:962: undefined reference to `JointAngleChanger::JointAngleChanger(QList<QDoubleSpinBox*>)'\n"}
+[19.375409] (-) TimerEvent: {}
+[19.396387] (ros_app) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[19.398050] (ros_app) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/MainWindow.dir/build.make:218: MainWindow] Error 1\n'}
+[19.399961] (ros_app) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/MainWindow.dir/all] Error 2\n'}
+[19.400070] (ros_app) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[19.404132] (ros_app) CommandEnded: {'returncode': 2}
+[19.475509] (-) TimerEvent: {}
+[19.575734] (-) TimerEvent: {}
+[19.629332] (ros_app) JobEnded: {'identifier': 'ros_app', 'rc': 2}
+[19.630507] (-) EventReactorShutdown: {}

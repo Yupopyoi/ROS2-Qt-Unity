@@ -1,0 +1,7 @@
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp: In function ‘int main(int, char**)’:
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:5:14: warning: unused parameter ‘argc’ [-Wunused-parameter]
+    5 | int main(int argc, char *argv[])
+      |          ~~~~^~~~
+/home/yupopoi/ROS-App/src/ros_app/src/source/main.cpp:5:26: warning: unused parameter ‘argv’ [-Wunused-parameter]
+    5 | int main(int argc, char *argv[])
+      |                    ~~~~~~^~~~~~

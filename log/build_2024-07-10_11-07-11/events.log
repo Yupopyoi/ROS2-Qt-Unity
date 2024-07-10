@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.028133] (ros_app) JobQueued: {'identifier': 'ros_app', 'dependencies': OrderedDict()}
+[0.028215] (ros_app) JobStarted: {'identifier': 'ros_app'}
+[0.043009] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'cmake'}
+[0.044601] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'build'}
+[0.044637] (ros_app) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yupopoi/ROS-App/build/ros_app', '--', '-j2', '-l2'], 'cwd': '/home/yupopoi/ROS-App/build/ros_app', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'yupopoi'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '156'), ('HOME', '/home/yupopoi'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/yupopoi/Qt/6.7.2/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/yupopoi/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1002'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1194'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12401'), ('COLCON_PREFIX_PATH', '/home/yupopoi/ROS-App/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'yupopoi'), ('JOURNAL_STREAM', '8:32944'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('QSG_RHI_BACKEND', 'opengl'), ('TERM', 'xterm'), ('USERNAME', 'yupopoi'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', 'c789fe05f65749fd90d72feeaf56253e'), ('SESSION_MANAGER', 'local/yupopoi-u2:@/tmp/.ICE-unix/1171,unix/yupopoi-u2:/tmp/.ICE-unix/1171'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2HUPQ2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yupopoi/ROS-App/build/ros_app'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/home/yupopoi/Qt/6.7.2/gcc_64/lib/cmake:/opt/ros/humble'), ('GTK_THEME', ':light')]), 'shell': False}
+[0.099960] (-) TimerEvent: {}
+[0.200253] (-) TimerEvent: {}
+[0.300534] (-) TimerEvent: {}
+[0.389723] (ros_app) StdoutLine: {'line': b'[ 12%] Automatic MOC and UIC for target MainWindow\n'}
+[0.400634] (-) TimerEvent: {}
+[0.500902] (-) TimerEvent: {}
+[0.507244] (ros_app) StdoutLine: {'line': b'[ 12%] Built target MainWindow_autogen\n'}
+[0.601098] (-) TimerEvent: {}
+[0.701385] (-) TimerEvent: {}
+[0.730560] (ros_app) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/MainWindow.dir/src/source/main.cpp.o\n'}
+[0.801500] (-) TimerEvent: {}
+[0.901795] (-) TimerEvent: {}
+[1.002087] (-) TimerEvent: {}
+[1.102375] (-) TimerEvent: {}
+[1.202657] (-) TimerEvent: {}
+[1.302949] (-) TimerEvent: {}
+[1.403238] (-) TimerEvent: {}
+[1.503536] (-) TimerEvent: {}
+[1.603880] (-) TimerEvent: {}
+[1.704171] (-) TimerEvent: {}
+[1.804461] (-) TimerEvent: {}
+[1.904755] (-) TimerEvent: {}
+[2.005050] (-) TimerEvent: {}
+[2.105347] (-) TimerEvent: {}
+[2.205649] (-) TimerEvent: {}
+[2.305951] (-) TimerEvent: {}
+[2.406351] (-) TimerEvent: {}
+[2.506644] (-) TimerEvent: {}
+[2.606944] (-) TimerEvent: {}
+[2.707235] (-) TimerEvent: {}
+[2.807526] (-) TimerEvent: {}
+[2.907792] (-) TimerEvent: {}
+[3.008082] (-) TimerEvent: {}
+[3.108386] (-) TimerEvent: {}
+[3.208691] (-) TimerEvent: {}
+[3.309537] (-) TimerEvent: {}
+[3.410363] (-) TimerEvent: {}
+[3.510649] (-) TimerEvent: {}
+[3.610943] (-) TimerEvent: {}
+[3.711236] (-) TimerEvent: {}
+[3.811616] (-) TimerEvent: {}
+[3.911940] (-) TimerEvent: {}
+[4.012233] (-) TimerEvent: {}
+[4.112525] (-) TimerEvent: {}
+[4.212816] (-) TimerEvent: {}
+[4.313107] (-) TimerEvent: {}
+[4.413612] (-) TimerEvent: {}
+[4.513952] (-) TimerEvent: {}
+[4.614250] (-) TimerEvent: {}
+[4.714543] (-) TimerEvent: {}
+[4.814839] (-) TimerEvent: {}
+[4.915128] (-) TimerEvent: {}
+[5.015428] (-) TimerEvent: {}
+[5.115724] (-) TimerEvent: {}
+[5.216051] (-) TimerEvent: {}
+[5.316347] (-) TimerEvent: {}
+[5.416645] (-) TimerEvent: {}
+[5.516944] (-) TimerEvent: {}
+[5.617247] (-) TimerEvent: {}
+[5.717547] (-) TimerEvent: {}
+[5.817834] (-) TimerEvent: {}
+[5.918124] (-) TimerEvent: {}
+[6.018455] (-) TimerEvent: {}
+[6.118772] (-) TimerEvent: {}
+[6.219065] (-) TimerEvent: {}
+[6.319395] (-) TimerEvent: {}
+[6.419706] (-) TimerEvent: {}
+[6.520023] (-) TimerEvent: {}
+[6.620311] (-) TimerEvent: {}
+[6.720662] (-) TimerEvent: {}
+[6.820960] (-) TimerEvent: {}
+[6.921296] (-) TimerEvent: {}
+[7.021591] (-) TimerEvent: {}
+[7.121881] (-) TimerEvent: {}
+[7.222174] (-) TimerEvent: {}
+[7.322493] (-) TimerEvent: {}
+[7.422791] (-) TimerEvent: {}
+[7.523083] (-) TimerEvent: {}
+[7.623378] (-) TimerEvent: {}
+[7.723684] (-) TimerEvent: {}
+[7.824003] (-) TimerEvent: {}
+[7.924289] (-) TimerEvent: {}
+[8.024593] (-) TimerEvent: {}
+[8.124885] (-) TimerEvent: {}
+[8.225186] (-) TimerEvent: {}
+[8.325481] (-) TimerEvent: {}
+[8.425778] (-) TimerEvent: {}
+[8.526062] (-) TimerEvent: {}
+[8.626471] (-) TimerEvent: {}
+[8.726769] (-) TimerEvent: {}
+[8.827060] (-) TimerEvent: {}
+[8.927352] (-) TimerEvent: {}
+[9.027639] (-) TimerEvent: {}
+[9.127979] (-) TimerEvent: {}
+[9.228279] (-) TimerEvent: {}
+[9.328577] (-) TimerEvent: {}
+[9.428877] (-) TimerEvent: {}
+[9.529176] (-) TimerEvent: {}
+[9.629501] (-) TimerEvent: {}
+[9.729809] (-) TimerEvent: {}
+[9.830093] (-) TimerEvent: {}
+[9.930387] (-) TimerEvent: {}
+[10.030693] (-) TimerEvent: {}
+[10.130987] (-) TimerEvent: {}
+[10.231319] (-) TimerEvent: {}
+[10.331621] (-) TimerEvent: {}
+[10.432020] (-) TimerEvent: {}
+[10.532308] (-) TimerEvent: {}
+[10.632601] (-) TimerEvent: {}
+[10.733034] (-) TimerEvent: {}
+[10.833331] (-) TimerEvent: {}
+[10.933637] (-) TimerEvent: {}
+[11.033938] (-) TimerEvent: {}
+[11.134235] (-) TimerEvent: {}
+[11.234541] (-) TimerEvent: {}
+[11.334846] (-) TimerEvent: {}
+[11.435185] (-) TimerEvent: {}
+[11.535553] (-) TimerEvent: {}
+[11.635886] (-) TimerEvent: {}
+[11.736303] (-) TimerEvent: {}
+[11.836599] (-) TimerEvent: {}
+[11.936932] (-) TimerEvent: {}
+[12.037230] (-) TimerEvent: {}
+[12.137531] (-) TimerEvent: {}
+[12.237848] (-) TimerEvent: {}
+[12.338146] (-) TimerEvent: {}
+[12.438445] (-) TimerEvent: {}
+[12.538755] (-) TimerEvent: {}
+[12.639058] (-) TimerEvent: {}
+[12.739364] (-) TimerEvent: {}
+[12.839668] (-) TimerEvent: {}
+[12.939989] (-) TimerEvent: {}
+[13.040290] (-) TimerEvent: {}
+[13.140616] (-) TimerEvent: {}
+[13.240909] (-) TimerEvent: {}
+[13.341208] (-) TimerEvent: {}
+[13.441501] (-) TimerEvent: {}
+[13.541795] (-) TimerEvent: {}
+[13.642091] (-) TimerEvent: {}
+[13.742390] (-) TimerEvent: {}
+[13.842698] (-) TimerEvent: {}
+[13.943000] (-) TimerEvent: {}
+[14.043299] (-) TimerEvent: {}
+[14.143598] (-) TimerEvent: {}
+[14.243937] (-) TimerEvent: {}
+[14.344230] (-) TimerEvent: {}
+[14.444528] (-) TimerEvent: {}
+[14.544836] (-) TimerEvent: {}
+[14.645187] (-) TimerEvent: {}
+[14.745481] (-) TimerEvent: {}
+[14.845775] (-) TimerEvent: {}
+[14.946175] (-) TimerEvent: {}
+[15.046464] (-) TimerEvent: {}
+[15.146773] (-) TimerEvent: {}
+[15.247202] (-) TimerEvent: {}
+[15.347500] (-) TimerEvent: {}
+[15.447782] (-) TimerEvent: {}
+[15.549192] (-) TimerEvent: {}
+[15.649517] (-) TimerEvent: {}
+[15.749816] (-) TimerEvent: {}
+[15.850119] (-) TimerEvent: {}
+[15.950433] (-) TimerEvent: {}
+[16.050738] (-) TimerEvent: {}
+[16.151079] (-) TimerEvent: {}
+[16.251384] (-) TimerEvent: {}
+[16.351718] (-) TimerEvent: {}
+[16.452071] (-) TimerEvent: {}
+[16.552370] (-) TimerEvent: {}
+[16.652705] (-) TimerEvent: {}
+[16.753007] (-) TimerEvent: {}
+[16.853315] (-) TimerEvent: {}
+[16.953612] (-) TimerEvent: {}
+[17.053904] (-) TimerEvent: {}
+[17.154207] (-) TimerEvent: {}
+[17.254505] (-) TimerEvent: {}
+[17.354806] (-) TimerEvent: {}
+[17.455110] (-) TimerEvent: {}
+[17.555406] (-) TimerEvent: {}
+[17.655710] (-) TimerEvent: {}
+[17.756036] (-) TimerEvent: {}
+[17.856344] (-) TimerEvent: {}
+[17.956656] (-) TimerEvent: {}
+[18.056947] (-) TimerEvent: {}
+[18.116682] (ros_app) StdoutLine: {'line': b'[ 37%] Linking CXX executable MainWindow\n'}
+[18.157066] (-) TimerEvent: {}
+[18.257371] (-) TimerEvent: {}
+[18.357710] (-) TimerEvent: {}
+[18.458040] (-) TimerEvent: {}
+[18.558372] (-) TimerEvent: {}
+[18.658684] (-) TimerEvent: {}
+[18.759032] (-) TimerEvent: {}
+[18.769579] (ros_app) StdoutLine: {'line': b'[100%] Built target MainWindow\n'}
+[18.792090] (ros_app) CommandEnded: {'returncode': 0}
+[18.859121] (-) TimerEvent: {}
+[18.959378] (-) TimerEvent: {}
+[19.007999] (ros_app) JobProgress: {'identifier': 'ros_app', 'progress': 'install'}
+[19.023993] (ros_app) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yupopoi/ROS-App/build/ros_app'], 'cwd': '/home/yupopoi/ROS-App/build/ros_app', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'yupopoi'), ('XDG_SESSION_TYPE', 'wayland'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '156'), ('HOME', '/home/yupopoi'), ('DESKTOP_SESSION', 'ubuntu'), ('QTDIR', '/home/yupopoi/Qt/6.7.2/gcc_64'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/yupopoi/.local/share/applications/org.qt-project.qtcreator.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('MANAGERPID', '1002'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path'), ('SYSTEMD_EXEC_PID', '1194'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '12401'), ('COLCON_PREFIX_PATH', '/home/yupopoi/ROS-App/install'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'yupopoi'), ('JOURNAL_STREAM', '8:32944'), ('_', '/usr/bin/env'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('QSG_RHI_BACKEND', 'opengl'), ('TERM', 'xterm'), ('USERNAME', 'yupopoi'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('INVOCATION_ID', 'c789fe05f65749fd90d72feeaf56253e'), ('SESSION_MANAGER', 'local/yupopoi-u2:@/tmp/.ICE-unix/1171,unix/yupopoi-u2:/tmp/.ICE-unix/1171'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2HUPQ2'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im'), ('AMENT_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/opt/ros/humble'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('GDMSESSION', 'ubuntu'), ('QT_ACCESSIBILITY', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/yupopoi/ROS-App/build/ros_app'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yupopoi/ROS-App/install/ros_app:/home/yupopoi/Qt/6.7.2/gcc_64/lib/cmake:/opt/ros/humble'), ('GTK_THEME', ':light')]), 'shell': False}
+[19.038269] (ros_app) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[19.038629] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/package_run_dependencies/ros_app\n'}
+[19.038890] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/parent_prefix_path/ros_app\n'}
+[19.039133] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.sh\n'}
+[19.039373] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/ament_prefix_path.dsv\n'}
+[19.039605] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.sh\n'}
+[19.039849] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/environment/path.dsv\n'}
+[19.040080] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.bash\n'}
+[19.040310] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.sh\n'}
+[19.040534] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.zsh\n'}
+[19.040757] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/local_setup.dsv\n'}
+[19.040986] (ros_app) StdoutLine: {'line': b'-- Installing: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.dsv\n'}
+[19.041425] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ament_index/resource_index/packages/ros_app\n'}
+[19.041664] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig.cmake\n'}
+[19.041867] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/cmake/ros_appConfig-version.cmake\n'}
+[19.042140] (ros_app) StdoutLine: {'line': b'-- Up-to-date: /home/yupopoi/ROS-App/install/ros_app/share/ros_app/package.xml\n'}
+[19.047926] (ros_app) CommandEnded: {'returncode': 0}
+[19.064172] (-) TimerEvent: {}
+[19.164371] (-) TimerEvent: {}
+[19.264633] (-) TimerEvent: {}
+[19.277280] (ros_app) JobEnded: {'identifier': 'ros_app', 'rc': 0}
+[19.278071] (-) EventReactorShutdown: {}
